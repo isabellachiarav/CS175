@@ -10,7 +10,7 @@ public class E63 {
 		int input = 0, largest = -999999, smallest = 999999, even = 0, odd = 0, sum = 0, priorInput = 999999;
 		String totals = "", adjacent = "";
 		System.out.println("Enter a sequence of integers (enter 'STOP' to end): ");
-		while (sc.hasNextDouble()) {
+		while (sc.hasNextInt()) {
 			input = sc.nextInt();
 			//Tests for adjacent duplicates
 			if (input == priorInput) {
